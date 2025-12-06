@@ -499,14 +499,20 @@
                 padding: 0 1.5rem;
             }
 
+            /* Make nav not sticky on mobile to save screen space */
+            nav {
+                position: relative;
+            }
+
             nav ul {
                 flex-direction: column;
                 padding: 0;
             }
 
             nav a {
-                border-bottom: 1px solid #f1f5f9;
-                padding: 1rem 1.5rem;
+                border-bottom: 1px solid #334155;
+                padding: 0.75rem 1.5rem;
+                font-size: 0.85rem;
             }
 
             nav a::after {
